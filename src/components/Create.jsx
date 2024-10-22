@@ -7,7 +7,7 @@ const Create = (props) => {
 
     const Submithandler = (e) =>{
         e.preventDefault();
-       const newTask = {title , completed : false}
+       const newTask = {title , completed : false , isEditing: false}
 
 
    settask([...task, newTask]);
